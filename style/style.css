@@ -1,0 +1,223 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  
+  nav li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav li a:hover {
+    background-color: lightgray;
+  }
+
+ .bg-home{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+ }
+
+ main{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    
+ }
+
+ h1{
+    
+    font-weight: 600;
+    font-size: 120px;
+    margin:0;
+    padding:0;
+ }
+ h2{
+    font-weight: 400;
+    font-size: 100px; 
+    margin:0;
+    padding:0;
+ }
+
+ .txt-bg{
+    background-color: black;
+    font-size: 40px;
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 10px;
+ }
+
+ .button {
+    display: inline-block;
+    background-color: #FA643F;
+    padding: 10px 20px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .button:hover {
+    background-color: #FF7F57;
+  }
+
+  .bg-txt-brisa{
+    position: absolute;
+    z-index: 1;
+    bottom: 80px;
+    left: 1000px;
+  }
+
+  .sobre{
+    display: flex;
+    margin: 70px;
+    justify-content: space-around;
+  }
+
+  .sobre-h3{
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  .sobre-txt {
+    width: 50%;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    width: 35%;
+    font-size: 28px; 
+  }
+
+  .sobre-img{
+    width: 120%;
+  }
+
+  .alemdospaes{
+    background-color: #FFF4F0;
+    color:black;
+    padding-top: 70px;
+  }
+
+  .alemdospaes-txt{
+    font-size: 60px;
+    width: 85%;
+    margin-left: 190px;
+  }
+
+  .filosofia{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: 60px;;
+  }
+
+  .filosofia-box{
+    width: 20%;
+  }
+
+  .filosofia-img{
+    width: 400px;
+  }
+
+  .filosofia-box h3{
+    font-size: 30px;;
+  }
+
+  .filosofia-txt{
+    position: relative;
+    z-index: 1;
+    font-size: 70px;
+    bottom: 800px;
+    width: 90%;
+    margin: 100px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em white;
+
+  }
+
+  .delivery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -350px;
+    color:black;
+  }
+
+  .delivery-txt{
+    width: 35%;
+    font-size: 24px;
+    padding-right:120px;
+    margin: 100px;
+  }
+
+  .delivery-img{
+    width: 150%;
+  }
+
+  .delivery-h4{
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  footer{
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .bg-footer{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+ }
+
+  .footer-box-txt{
+    position: absolute;
+    z-index:1;
+    top:300px;
+    left: 100px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+  }
+
+  footer h4{
+    font-size: 85px;
+    margin: 0;
+  }
+
+  footer p{
+    font-size: 50px;
+    margin:0;
+  }
+
+  .txt-breve{
+    margin-top: 20px;
+    font-size: 50px;
+  }
